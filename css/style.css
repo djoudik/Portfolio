@@ -1,6 +1,7 @@
 @charset "UTF-8"
 
-@font-face {
+@font-face 
+{
     font-family: 'Russo One', sans-serif;
     src: url('fonts/RussoOne-Regular.ttf') format('ttf');
     font-weight: normal;
@@ -101,4 +102,46 @@ a:hover {
     background-color: blue;
 }
 
-
+  
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 150px;
+    background-color: #111;
+    text-align: center;
+  }
+  
+  .container1{
+    margin-top: 50px;
+    color: #fff;
+    width: 100%;
+  }
+  
+  .fab-twitter {
+      color: #4099FF;
+  }
+  
+  .fab-facebook {
+      color: #3B5998;
+  }
+  
+  .fab-github {
+      color: #e52d27;
+  }
+  
+  .fab-linkedin {
+      color: #007bb6;
+  }
+  
+  .fa {
+      opacity: 0.7;
+      transition: 1s;
+      -webkit-transition: 1s;
+  }
+  
+  .fa:hover{
+      opacity: 1;
+      transition: 1s;
+      -webkit-transition: 1s;
+  }
