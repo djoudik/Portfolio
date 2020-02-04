@@ -1,143 +1,104 @@
 @charset "UTF-8"
 
-@font-face
-{
+@font-face {
     font-family: 'Russo One', sans-serif;
     src: url('fonts/RussoOne-Regular.ttf') format('ttf');
     font-weight: normal;
     font-style: normal;
 }
 
-body,html
-{
+body,
+html {
     padding: 0;
     margin: 0;
 }
 
-body
-{
+body {
     font-family: 'RussoOne-Regular', sans-serif;
 }
 
-a, a:hover
-{
+
+.image img {
+    display: block;
+    border-radius: 50%;
+    box-shadow: 20px 20px 10px black;
+    margin-right: auto;
+    padding-top: 20px;
+    margin-left: auto;
+    width: 40%;
+}
+
+.image.fit {
+
+    float: auto;
+    margin-right: auto;
+    margin-left: auto;
+
+    width: 50%;
+}
+
+a,
+a:hover {
     text-decoration: none;
 }
-.separator
-{
+
+.separator {
     height: 3px;
     width: 5%;
     border: none;
     box-shadow: none;
     background-color: goldenrod;
 }
-.header
-{
+
+.header {
     background-color: goldenrod;
     height: 70px;
     line-height: 70px;
 
 }
 
-.logo
-{
-color: white;
-text-transform: uppercase;
-font-weight: bold;
-letter-spacing: 1px;
-float: left;
+.logo {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    float: left;
 }
 
-.menu
-{
+.menu {
     float: right;
 }
 
-.menu a
-{
+.menu a {
     color: white;
     margin-right: 20px;
 }
 
-.menu a:hover
-{
-color: blue;
+.menu a:hover {
+    color: blue;
 
 }
 
-.container-fluid
-{
-    padding: 0;
-}
 
-.banner
-{
-    width: 100%;
-    max-width: 100%;
-}
-
-.ban
-{
-    width: 100%;
-    max-width: 100%;
-    position: relative;
-}
-
-.ban img
-{
-    width: 100%;
-    max-width: 100%;
-}
-
-.inner-banner
-{
+.inner-banner {
     position: absolute;
-    top: 40%;
+    top: 70%;
     width: 100%;
     text-align: center;
 }
 
-.inner-banner h1
-{
-    color : #ffffff;
-    text-shadow: 1px 1px 20px #000000;
+.inner-banner h1 {
+    color: goldenrod;
+    text-shadow: 1px 1px 40px #000000;
 }
 
-.inner-banner .btn-custom
-{
+.inner-banner .btn-custom {
     background-color: goldenrod;
     color: #ffffff;
 }
 
-.inner-banner .btn-custom:hover
-{
-    background-color: forestgreen;
+.inner-banner .btn-custom:hover {
+    background-color: blue;
 }
 
-#about
-{
-    text-align: center;
-    padding-top: 5%;
-}
-.about div h2
-{
-text-align: center;
 
-}
-
-.about div
-{
-    margin-top: 5%;
-}
-
-.portfolio
-
-{
-    background-color: grey;
-}
-
-#portfolio
-
-{
-    text-align: center;
-}
