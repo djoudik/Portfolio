@@ -17,6 +17,37 @@ h1, h2, h3, h4, h5, h6{
 	padding: 0;
 }
 
+h3
+{
+    font-size: 3em;
+    text-align: center;
+
+}
+
+h5, h4
+{
+    text-decoration:overline;
+    font-size: 2em;
+    text-align: center;
+
+}
+
+p
+{
+    
+    font-size: 1,5em;
+}
+
+strong
+{
+    color: goldenrod;
+    
+}
+
+h4
+{font-size: 2em;
+}
+
 ul{
 	margin: 0;
 	padding: 0;
@@ -35,15 +66,20 @@ li{
 	margin: 0 auto;
 	box-shadow: 1px 1px 30px #000000;
 }
+.container-fluid
+{
+    margin: auto;
+    text-align: center;
+}
 .aside {
 	-webkit-flex: 1;
     flex: 1;
     flex-basis:25%;
-	background-color: #E65100;
+	background-color: #E1BEE7;
 	padding: 2rem;
 	text-align: center;
-	border:8px solid #1A237E;
-	color: white;
+	border:8px solid goldenrod;
+	color: #401934;
 }
 
 .main{
@@ -64,6 +100,7 @@ li{
 .main-info{
 	padding:2rem;
 	color: white;
+    font-size: 17px;
 }
 
 .main-info p{
@@ -99,7 +136,7 @@ li{
 
 .aside .social-media ul li{
 	padding: 0.5rem 0;
-	border-bottom: 1px solid white;
+	border-bottom: 1px solid #401934;
 }
 
 .aside .social-media a{
@@ -120,8 +157,25 @@ li{
 }
 
 .basic-information a{
-	color: white;
+	color: #401934;
 }
+
+
+i.fab
+{
+    color: goldenrod;
+    }
+i.fab:hover{
+      color: blue;      
+  }
+i.fas
+{
+    color: goldenrod;
+}
+a:hover {
+    color: goldenrod;
+}
+
 /* Small screens */
 @media all and (max-width:700px) {
 .container {
@@ -144,11 +198,5 @@ li{
 	border-bottom: none;
 }
 
-.aside .social-media a{
-	text-decoration: none;
-}
-.fa:hover{
-      opacity: 1;
-      transition: 1s;
-      -webkit-transition: 1s;
-  }
+
+    
