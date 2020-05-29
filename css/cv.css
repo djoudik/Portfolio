@@ -9,7 +9,7 @@ body {
 	margin: 0;
 	font-family: 'Oswald', sans-serif;
 	padding: 1rem;
-	background-color: #401934;
+	background-color: #0066ff;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -75,7 +75,7 @@ li{
 	-webkit-flex: 1;
     flex: 1;
     flex-basis:25%;
-	background-color: #E1BEE7;
+	background-color: #99ccff;
 	padding: 2rem;
 	text-align: center;
 	border:8px solid goldenrod;

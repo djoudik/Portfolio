@@ -14,7 +14,7 @@ html {
 
 body {
     font-family: 'RussoOne-Regular', sans-serif;
-    background-color: #E1BEE7;
+    background-color: #33ccff;
 }
 
 
@@ -46,18 +46,18 @@ a:hover {
     width: 5%;
     border: none;
     box-shadow: none;
-    background-color: #401934;
+    background-color: #ccffff;
 }
 
 .header {
-    background-color: #401934;
+    background-color: #ccffff;
     height: 70px;
     line-height: 70px;
 
 }
 
 .logo {
-    color: goldenrod;
+    color: #000099;
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 1px;
@@ -69,7 +69,7 @@ a:hover {
 }
 
 .menu a {
-    color: goldenrod;
+    color: #000099;
     font-weight: bold;
     margin-right: 20px;
     
@@ -90,17 +90,17 @@ a:hover {
 }
 
 .inner-banner h1 {
-    color: #401934;
+    color: #ccffff;
     text-shadow: 1px 1px 40px #000000;
 }
 
 .inner-banner .btn-custom {
-    background-color: goldenrod;
+    background-color: #000099;
     color: #ffffff;
 }
 
 .inner-banner .btn-custom:hover {
-    background-color: #401934;
+    background-color: #ccffff;
 }
 
   
@@ -109,7 +109,7 @@ a:hover {
     bottom: 0;
     width: 100%;
     height: 70px;
-    background-color: #401934;
+    background-color: #ccffff;
     text-align: center;
   }
   
@@ -121,7 +121,7 @@ a:hover {
   
 i.fab
 {
-    color: goldenrod;
+    color: #000099;
     margin-top: 10px;
 }
  
